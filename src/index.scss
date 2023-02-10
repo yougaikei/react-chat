@@ -1,0 +1,36 @@
+// Clean up the default styles
+
+// html element styles
+body, div, span, h1, h2, h3, h4, h5, h6, p, a, table, article, thead, tbody, tfoot, tr, th, td, input, button {
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+// a element styles
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+// button and input element styles
+button, input {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+// table element styles
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// title default styles clean up
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
